@@ -34,7 +34,7 @@
                     </div>
                 </div>    
                 <div class="col-md-6 laptop">
-                    <img src="assets/images/laptop.png">
+                    <img class="img-fluid" src="assets/images/laptop.png">
                 </div>
             </div>
         </div>
@@ -302,6 +302,9 @@
             <img src="assets/images/arrow.png">
         </div>
     </div>
-    </div>    
+    </div> 
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/jquery.min.js"></script>
+    <script src="assets/bootstrap/poper.min.js"></script>   
 </body>
 </html>

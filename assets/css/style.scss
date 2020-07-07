@@ -25,9 +25,10 @@ body{
     padding: 0px;
 }
 .layer{
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 810px;
+    background-position: center;
 }
 .nav{
     padding-top: 36px;
@@ -91,9 +92,7 @@ body{
 button{
     outline:none !important;
 }
-.laptop img{
-    width:100%;
-}
+
 .main{
     z-index: 2;
     padding-left: 8%;
