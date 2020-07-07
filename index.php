@@ -11,9 +11,9 @@
     <body>
             <div class="main-wrapper">
                 <div class="layer" style="background-image: url(assets/images/first-layer.png);">
-                    <div class="nav d-flex ml-auto mr-auto">
-                        <a href="#"><img src="assets/images/logo.png"></a>
-                        <div class="nav-links ml-auto">
+                    <div class="navbar-qr d-flex ml-auto mr-auto">
+                        <a href="#" class="nav-logo"><img src="assets/images/logo.png"></a>
+                        <div class="nav-links ml-auto d-none d-md-block">
                             <ul>
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Features</a></li>
@@ -29,11 +29,11 @@
                             <h1 class="banner-heading">RESTURANT<br>QR WEB MENU</h1>
                             <p class="banner-p">Add an online menu maker to your resturant website and present your dishes tastly.</p>
                             <p class="banner-p2">Use our restaurant menu script to create countless categories (salads, soups, meat, desserts etc.) Add multiple dishes to each of them. The menu will blend perfectly into your website with minimum efforts. Personalize every entry by adding name, image and description. Set portion sizes and respective prices. Enable/disable products as per availability. Make your customers happy by launching special offers for a number of people with products of your choice.</p>
-                            <div class="text-right">
+                            <div class="text-md-right text-center">
                                 <button class="banner-button" type="button"  data-toggle="modal" data-target="#signup">Create My Menu</button>
                             </div>
                         </div>    
-                        <div class="col-md-6 laptop text-right">
+                        <div class="col-md-6 laptop text-md-right text-center">
                             <img class="img-fluid" src="assets/images/laptop.png">
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                     <h1 class="main-heading text-center">Product Highlights</h1>
                     <p class="text-center main-p">The Restaurant QR Web Menu will help you create a mouth-watering online menu with all your<br>dishes and drinks. Adding categories, products and special offers and personalizing them is an easy<br>and convenient job you are going to enjoy. Check the key features below:</p>
                 <div class="row p-0 m-0">
-                    <div class="col-md-4">
+                    <div class=" col-md-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card1.svg" width="90px" height="90px">
@@ -51,7 +51,7 @@
                             <p class="text-center products-cards-p">Create multiple menu categories and products. Add names, images and descriptions. Set different portion sizes and the corresponding prices. Enable/disable products depending on their availability.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class=" col-md-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card2.svg" width="90px" height="90px">
@@ -60,7 +60,7 @@
                             <p class="text-center products-cards-p">The restaurant script front-end is mobile-friendly and can be loaded across various devices (PC, smartphones, tablets). You can also change color themes - 10 different are available!</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class=" col-md-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card3.svg" width="90px" height="90px">
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="row p-0 m-0">
-                    <div class="col-md-4">
+                    <div class=" col-md-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card4.svg" width="90px" height="90px">
@@ -80,7 +80,7 @@
                             <p class="text-center products-cards-p">The online menu maker can be translated into various languages. You can do it from the back-end system or by exporting and importing a CSV file with all system titles.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class=" col-md-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card5.svg" width="90px" height="90px">
@@ -89,7 +89,7 @@
                             <p class="text-center products-cards-p">Enable different portion sizes (e.g. small / medium / family pizza) or allow one dish size only. Set separate prices for each portion size. Easily add and remove sizes from the back-end as necessary.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class=" col-md-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card6.svg" width="90px" height="90px">
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="row p-0 m-0">
-                    <div class="col-md-4">
+                    <div class=" col-md-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card7.svg" width="90px" height="90px">
@@ -115,7 +115,7 @@
                     <img src="assets/images/sec-layer.png" class="img-fluid sec-layer">
                     <div class="row m-0 p-0">
                         <div class="col-md-12">
-                        <div class="d-flex feature-and-button">
+                        <div class="d-flex feature-and-button flex-wrap">
                             <h1 class="feature-first-h">Features</h1>
                             <button class="ml-auto feature-button">Create My Menu</button>
                         </div>
@@ -135,7 +135,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 pr-0">
+                        <div class="col-md-6  pr-md-0 mt-40">
                             <div class="feature1">
                                 <img src="assets/images/feature1.png" class="w-100 feature1 img">    
                             <div>
@@ -144,7 +144,7 @@
                 </div>
                 </div>
                 <div class="row feature-row">
-                    <div class="col-md-6 p-0">
+                    <div class="col-md-6 p-md-0">
                         <div>
                             <img src="assets/images/feature2.png" class="feature-left-img w-100">
                         </div>
@@ -154,9 +154,9 @@
                             <div class="feature-right-opacity-text">
                                 <h1 class="feature-right-opacity-texth">Features</h1>
                             </div>
-                            <h3 class="feature-h text-right right-border">SPECIAL COMBO MEALS</h3>
-                            <p class="feature-p text-right">The QR Web Menu gives you the opportunity to launch special offers - standard, seasonal, exclusive, whatever you need! It's a good way to attract new customers, win regular ones and boost sales. You can manage all special offers from a separate system menu.</p>
-                            <div class="grey-text text-right">
+                            <h3 class="feature-h text-md-right text-left right-border">SPECIAL COMBO MEALS</h3>
+                            <p class="feature-p text-md-right text-left">The QR Web Menu gives you the opportunity to launch special offers - standard, seasonal, exclusive, whatever you need! It's a good way to attract new customers, win regular ones and boost sales. You can manage all special offers from a separate system menu.</p>
+                            <div class="grey-text text-md-right text-left">
                                 <p>Add a special offer with an attractive name, short description and catchy image.</p>
                                 <p>Select the products you want to include into each special offer.</p>
                                 <p>Set individual prices for each dish or a total promo price.</p>
@@ -185,14 +185,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
+                <div class="col-md-6 p-md-0 mt-40">
                     <div>
                         <img src="assets/images/feature3.png" class="w-100 feature-right-img">
                     </div>     
                 </div>
             </div>
             <div class="row p-0 m-0 feature-row">
-                <div class="col-md-6 p-0">
+                <div class="col-md-6 p-md-0">
                     <div>
                         <img src="assets/images/feature4.png" class="feature-left-img w-100">
                     </div>
@@ -202,9 +202,9 @@
                         <div class="feature-right-opacity-text">
                             <h1 class="feature-right-opacity-texth">Features</h1>
                         </div>
-                        <h3 class="feature-h text-right right-border">SYSTEM SETTING</h3>
-                        <p class="feature-p text-right">Configure the restaurant menu script with no coding skills. Add languages, grant access to other users, create internal and external notifications. It takes a mouse click to protect your data from potential loss or misuse.</p>
-                        <div class="grey-text text-right">
+                        <h3 class="feature-h text-md-right text-left right-border">SYSTEM SETTING</h3>
+                        <p class="feature-p text-md-right text-left">Configure the restaurant menu script with no coding skills. Add languages, grant access to other users, create internal and external notifications. It takes a mouse click to protect your data from potential loss or misuse.</p>
+                        <div class="grey-text text-md-right text-left">
                             <p>Multi-language support - Translate all system messages into multiple languages.</p>
                             <p>User roles - Admins have full access rights and can add other users.</p>
                             <p>Editors can only view menus.</p>
@@ -232,14 +232,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
+                <div class="col-md-6 p-md-0 mt-40">
                     <div>
                         <img src="assets/images/feature5.png" class="w-100 feature-right-img">
                     </div>     
                 </div>
             </div>
             <div class="row p-0 m-0 feature-row">
-                <div class="col-md-6 p-0">
+                <div class="col-md-6 p-md-0">
                     <div>
                         <img src="assets/images/feature6.png" class="feature-left-img w-100">
                     </div>
@@ -249,9 +249,9 @@
                         <div class="feature-right-opacity-text">
                             <h1 class="feature-right-opacity-texth">Features</h1>
                         </div>
-                        <h3 class="feature-h text-right right-border">MORE KEY SOFTWARE FEATURES</h3>
-                        <p class="feature-p text-right">Just like most of our PHP scripts, Restaurant Menu Maker comes with the following special features & extra services. <a href="#">Find out more…</a></p>
-                        <div class="grey-text text-right">
+                        <h3 class="feature-h text-md-right text-left right-border">MORE KEY SOFTWARE FEATURES</h3>
+                        <p class="feature-p text-md-right text-left">Just like most of our PHP scripts, Restaurant Menu Maker comes with the following special features & extra services. <a href="#">Find out more…</a></p>
+                        <div class="grey-text text-md-right text-left">
                             <p>Installation Wizard & Cross Domain Integration</p>
                             <p>High Performance & Protected Against SQL Injections PHP Framework</p>
                             <p>One admiN Module, Translation Module & Backup Tool</p>
@@ -265,30 +265,29 @@
             </div>
             </div>
             <div class="benifits">
-                <div class="position-relative">
-                    <img class="w-100" src="assets/images/benifits-img.png">
-                    <div class="row mx-0  layer-overlay-container h-100 position-absolute w-100">
-                        <div class="col text-center">
+                <div class="position-relative d-flex features-layer" style="background-image:url('assets/images/benifits-img.png')">
+                    <div class="row mx-0  layer-overlay-container h-100  w-100"> 
+                        <div class="col-lg-col col-12 col-sm-6 text-center">
                             <img src="assets/images/benifit-1.png">
                             <h3 class="benifit-h">PAYMENT GATEWAYS</h3>
                             <p class="benifit-p">Review and request other online payment processing options!</p>
                         </div>
-                        <div class="col text-center">
+                        <div class="col-lg-col col-12 col-sm-6 text-center">
                             <img src="assets/images/benifit-2.png">
                             <h3 class="benifit-h">SCRIPT MODIFICATIONS</h3>
                             <p class="benifit-p">See a detailed introduction of our custom modification service!</p>
                         </div>
-                        <div class="col text-center">
+                        <div class="col-lg-col col-12 col-sm-6 text-center">
                             <img src="assets/images/benifit-3.png">
                             <h3 class="benifit-h">HIGH PERFOMANCE</h3>
                             <p class="benifit-p">Enjoy maximum efficiency and speed with our PHP Framework!</p>
                         </div>
-                        <div class="col text-center">
+                        <div class="col-lg-col col-12 col-sm-6 text-center">
                             <img src="assets/images/benifit-4.png">
                             <h3 class="benifit-h">REMOTE HOSTING</h3>
                             <p class="benifit-p">Save yourself the hassle - let us host our PHP scripts in the cloud!</p>
                         </div>
-                        <div class="col text-center">
+                        <div class="col-lg-col col-12 col-sm-6 text-center">
                             <img src="assets/images/benifit-5.png">
                             <h3 class="benifit-h">EXTENDED LICENCE</h3>
                             <p class="benifit-p">Apply now to promote and resell our PHP scripts on your website!</p>
@@ -296,13 +295,39 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <p class="text text-center">VIEW ALL BENIFITS</p>
+            <div class="text-view-all">
+                <p class="text-center ">VIEW ALL BENIFITS</p>
                 <div class="text-center">
-                    <img src="assets/images/arrow.png">
+                    <img class="animate-arrow" src="assets/images/arrow.png">
                 </div>
             </div>
-
+            <!-- Responsive Navigation -->
+            <div class="mobile d-md-none d-block">
+                <div class="mainContainer">
+                    <a href="#" class="menuBtn">
+                        <span class="lines"></span>
+                    </a>
+                    <nav class="mainMenu">
+                        <ul class="px-0">
+                            <li>
+                            <a href="">House Removals</a>
+                            </li>
+                            <li>
+                                <a href="">Furniture Delivery</a>
+                            </li>
+                            <li>
+                                <a href="">Office Removels</a>
+                            </li>
+                            <li>
+                                <a href="">Piano Removels</a>
+                            </li>
+                            <li>
+                                <a href="">Why Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
             <!--Signup Modal -->
             <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -323,5 +348,6 @@
         <script src="assets/bootstrap/jquery.min.js"></script>
         <script src="assets/bootstrap/bootstrap.min.js"></script>
         <script src="assets/bootstrap/poper.min.js"></script>   
+        <script src="assets/js/web.js"></script>  
    </body>
 </html>
