@@ -33,7 +33,7 @@
                         <button class="banner-button">Create My Menu</button>
                     </div>
                 </div>    
-                <div class="col-md-6 laptop">
+                <div class="col-md-6 text-right laptop">
                     <img class="img-fluid" src="assets/images/laptop.png">
                 </div>
             </div>
