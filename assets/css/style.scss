@@ -1,0 +1,281 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'wonder-bold';
+    src: url(../fonts/wonder-unit-sans/webfont/WonderUnitSans-Bold.woff);
+}
+@font-face {
+    font-family: 'wonder-regular';
+    src: url(../fonts/wonder-unit-sans/webfont/WonderUnitSans-Regular.woff);
+}
+@font-face {
+    font-family: 'wonder-light';
+    src: url(../fonts/wonder-unit-sans/webfont/WonderUnitSans-Light.woff);
+}
+@font-face {
+    font-family: 'wonder-medium';
+    src: url(../fonts/wonder-unit-sans/webfont/WonderUnitSans-Medium.woff);
+}
+@font-face {
+    font-family: 'wonder-semib';
+    src: url(../fonts/wonder-unit-sans/webfont/WonderUnitSans-Semibold.woff);
+}
+body{
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.layer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 810px;
+}
+.nav{
+    padding-top: 36px;
+    min-height: 125px;
+    align-items: center;
+    font-family: wonder-regular;
+    padding-left:8%;
+    padding-right:8%;
+}
+.nav-links ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.nav-links li{
+    margin: 10px;
+    display: inline;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.nav-links a:hover{
+    border-bottom: 2px solid white;
+}
+.banner{
+    padding-left:8%;
+    padding-right:1%;
+    margin-top: 80px;
+}
+.banner-heading{
+    color: white;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+}
+.banner-p{
+    font-family: wonder-light;
+    color: white;
+    margin: 25px 0px;
+    font-size: 15px;
+}
+.banner-p2{
+    text-align: justify;
+    line-height: 1.3;
+    font-family: wonder-light;
+    color: white;
+}
+.banner-button{
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(221, 198, 66);
+    width: 230px;
+    height: 60px;
+    color: white;
+    margin:28px 34px;
+    font-size: 19px;
+}
+button{
+    outline:none !important;
+}
+.laptop img{
+    width:100%;
+}
+.main{
+    z-index: 2;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.main-heading{
+    color: black;
+    font-family: wonder-bold;
+    font-size: 48px;
+    margin-top: 80px;
+}
+.main-p{
+    color: black;
+    font-family: wonder-regular;
+}
+.products-cards{
+    min-height: 327px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+}
+.products-cards::before{
+    content:'';
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    height:5px;
+    width:100%;
+    background-image: -moz-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);
+}
+.products-cards:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+      
+}
+.products-cards-img{
+    padding: 25px;
+}
+.products-cards-h{
+    font-size: 20px;
+    font-family: wonder-bold;
+}
+.products-cards-p{
+    font-family: wonder-regular;
+    font-size: 14px;
+    padding: 10px 30px 40px 30px;
+}
+.sec-layer img.sec-layer{
+    z-index: 1;
+    position: absolute;
+    top: 1750px;
+    left: 0px;
+}
+.features{
+    position: relative;
+    z-index: 3;
+    padding-left: 16%;
+    padding-right: 0%;
+}
+.feature-first-h{
+    font-family: wonder-bold;
+    font-size: 48px;
+}
+.feature-h{
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-family: wonder-medium;
+}
+.feature-h::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 37%;
+    border-bottom: solid #0ccfb8;
+}
+.feature-p{
+    font-size: 15px;
+    font-family: wonder-regular;
+}
+.grey-text{
+    color: #c2b5b5;
+    font-family: wonder-regular;
+    font-size: 14px;
+}
+.feature-and-button{
+    position: relative;
+    z-index: 3;
+    padding: 90px 8% 50px 8%;  
+}
+.feature-button{
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    font-family: wonder-semib;
+    background-image: -moz-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);
+}
+.feature1{
+    position: relative;
+    z-index: 3;
+    padding-right: 0%;
+}
+.feature1 img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 95px 0px rgba(0, 0, 0, 0.14);
+}
+.main-wrapper{
+    overflow:hidden;
+}
+.feature-left-img{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 95px 0px rgba(0, 0, 0, 0.14);
+}
+.feature-right-text{
+    padding-right: 8% !important;
+}
+.feature-right-opacity-text{
+     position: absolute;
+     top: -72px;
+     left: 189px;
+}
+ .feature-right-opacity-texth{
+     font-size: 97px;
+     opacity: 5%;
+     font-family: wonder-bold;
+}
+.right-border::before{
+    left: auto;
+    right: 0px;
+}
+.feature-row{
+    margin-top: 100px !important;
+}
+.feature-right-img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 95px 0px rgba(0, 0, 0, 0.14);
+}
+.feature-left-text{
+    padding-left: 8%;
+}
+.feature-left-opacity-text{
+     position: absolute;
+     top: -65px;
+     right: 189px;
+}
+ .feature-left-opacity-texth{
+     font-size: 97px;
+     opacity: 5%;
+     font-family: wonder-bold;
+}
+.grey-text p{
+    margin-bottom:10px;
+}
+.layer-overlay-container{
+    align-items: center;
+    top:0px;
+    padding-left:8%;
+    padding-right:8%;
+}
+.benifit-h{
+    margin-top: 20px;
+    color: white;
+    font-family: wonder-regular;
+    font-size: 16px;
+}
+.benifit-p{
+    color: white;
+    font-family: wonder-regular;
+    font-size: 13px;
+}
+.benifits{
+    margin-top: 90px;
+}
