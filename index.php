@@ -333,13 +333,83 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLongTitle">Create Menu</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                           
+                            <div class="row">
+                                <div class="col-5 pr-0">
+                                    <div class="form-image h-100" style="background:url('assets/images/form-image.jpg');background-repeat:no-repeat;background-position:center;"></div>
+                                </div>
+                                <div class="col-7 sign-up-form">
+                                    <h4 class="text-center sign-up-formh">Create an Account!</h4>
+                                    <p class="wonder-medium">Data User</p>
+                                    <hr>
+                                    <form>
+                                        <div class="row p-0">
+                                            <div class="col-12">
+                                                <div>
+                                                    <input type="name" placeholder="Name" class="col-12-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row p-0">
+                                            <div class="col-12">
+                                                <div>
+                                                    <input type="email" placeholder="Email Address" class="col-12-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row p-0">
+                                            <div class="col-6">
+                                                <input type="password" placeholder="Passwords" class="col-6-input">
+                                            </div>    
+                                            <div class="col-6 pl-0">
+                                                <input type="password" placeholder="Repeat Passwords" class="col-6-input">
+                                            </div>
+                                        </div>
+                                        <p class="wonder-medium">Data Restaurant</p>
+                                        <hr>
+                                        <div class="row p-0">
+                                            <div class="col-12">
+                                                <div>
+                                                    <input type="name" placeholder="Restaurant Name" class="col-12-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row p-0">
+                                            <div class="col-12">
+                                                <div>
+                                                    <input type="address" placeholder="Address" class="col-12-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row p-0">
+                                            <div class="col-6">
+                                                <input type="number" placeholder="Phone Number" class="col-6-input">
+                                            </div>    
+                                            <div class="col-6 pl-0">
+                                                <input type="text" placeholder="Wesite." class="col-6-input">
+                                            </div>
+                                        </div>
+                                        <p class="wonder-medium">Image Restaurant</p>
+                                        <div class="row p-0">
+                                            <div class="col-12">
+                                                <input type="file" class="input-file">
+                                            </div>
+                                        </div>
+                                        <div class="row p-0">
+                                            <div class="col-12">
+                                                <button type="submit" class="form-button wonder-medium">Regester Account</button>
+                                                <hr>
+                                                <p class="text-center wonder-medium"><a href="#">Already have an account? login</a></p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
