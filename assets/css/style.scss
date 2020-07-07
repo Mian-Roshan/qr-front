@@ -278,5 +278,48 @@ button{
     margin-top: 90px;
 }
 #signup .modal-dialog{
- max-width:800px !important;
+ max-width:1000px !important;
+}
+.sign-up-form{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.sign-up-formh{
+    color: #27282a;
+    margin: 10px 0px;
+    font-family: wonder-bold !important;
+}
+.wonder-medium{
+    font-family: wonder-medium;
+    color: #868688;
+}
+.col-12-input{
+    border: 1px solid#868688;
+    border-radius: 20px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.col-6-input{
+    border: 1px solid #868688;
+    border-radius: 20px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.margin-left-form{
+    margin-left: 12px;
+}
+.input-file{
+    margin-bottom: 40px;
+}
+.form-button{
+    background-color: #4e73de;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
 }
