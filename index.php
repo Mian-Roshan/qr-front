@@ -320,9 +320,17 @@
                                     <hr>
                                     <form>
                                         <div class="row p-0">
+                                            <div class="col-6">
+                                                <input type="text" placeholder="First Name" class="col-6-input">
+                                            </div>    
+                                            <div class="col-6 pl-0">
+                                                <input type="text" placeholder="Last Name" class="col-6-input">
+                                            </div>
+                                        </div>
+                                        <div class="row p-0">
                                             <div class="col-12">
                                                 <div>
-                                                    <input type="name" placeholder="Name" class="col-12-input">
+                                                    <input type="name" placeholder="User Name" class="col-12-input">
                                                 </div>
                                             </div>
                                         </div>
@@ -341,7 +349,7 @@
                                                 <input type="password" placeholder="Repeat Passwords" class="col-6-input">
                                             </div>
                                         </div>
-                                        <p class="wonder-medium">Data Restaurant</p>
+                                        <p class="wonder-medium mt-1">Data Restaurant</p>
                                         <hr>
                                         <div class="row p-0">
                                             <div class="col-12">
