@@ -290,7 +290,6 @@
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Features</a></li>
                             <li><a href="#">Demo</a></li>
-                            <li><a href="#">FAQ</a></li>
                             <li><a href="#">Pricing</a></li>
                             <li><a href="#">Contact us</a></li>
                         </ul>
