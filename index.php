@@ -273,6 +273,30 @@
                     </div>
                 </div>
             </div>
+            <div class="padding">
+                <h1 class="main-heading text-center">Live Demo</h1>
+                <p class="main-p text-center">Below is a preview of the Restaurant QR Web Menu. You can see both the front and back-end<br> system, and test all functionalities.In case of any specific questions, do not hesitate to<br> contact us.</p>
+                <div class="row margin-bottom">
+                    <div class="col-md-6 margin-top">
+                        <div class="text-center">
+                            <h3 class="live-demos-h">FRONT-END</h3>
+                            <p class="main-p">Preview the front-end layout offered for our online Restaurant QR Web Menu.</p>
+                            <div class="front-end"><a href="#"><img src="assets/images/front-end.png" class="border-radius w-100"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 margin-top">
+                        <div class="text-center">
+                            <h3 class="live-demos-h">ADMINISTRATION PAGE</h3>
+                            <p class="main-p">Click the button below to open the admin panel of the restaurant menu script.</p>
+                            <div class="demo">
+                                <button class="demo-btn">Demo</button>
+                                <p class="login-text wonder-semib">LOGIN DETAILS</p>
+                                <p>Email: admin@admin.com       Password: pass</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- <div class="text-view-all">
                 <p class="text-center ">VIEW ALL BENIFITS</p>
                 <div class="text-center">

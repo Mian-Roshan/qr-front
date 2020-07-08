@@ -116,7 +116,7 @@ button{
 .products-cards{
     min-height: 327px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 40px 0px black (0, 0, 0, 0.09);
 }
 .products-cards::before{
     content:'';
@@ -160,8 +160,10 @@ button{
 .feature-first-h{
     font-family: wonder-bold;
     font-size: 48px;
+    color: #27282a;
 }
 .feature-h{
+    color: #27282a;
     position: relative;
     margin-bottom: 30px;
     font-size: 26px;
@@ -176,6 +178,7 @@ button{
     border-bottom: solid #0ccfb8;
 }
 .feature-p{
+    color: #27282a;
     font-size: 15px;
     font-family: wonder-regular;
 }
@@ -222,6 +225,7 @@ button{
     box-shadow: 0px 0px 95px 0px rgba(0, 0, 0, 0.14);
 }
 .feature-right-text{
+    color: #27282a;
     padding-right: 8% !important;
 }
 .feature-right-opacity-text{
@@ -249,6 +253,7 @@ button{
     box-shadow: 0px 0px 95px 0px rgba(0, 0, 0, 0.14);
 }
 .feature-left-text{
+    color: #27282a;
     padding-left: 8%;
 }
 .feature-left-opacity-text{
@@ -459,6 +464,56 @@ button{
     -webkit-animation: bounce-arrow 2s infinite;
     animation: bounce-arrow 2s infinite;
 }
+.padding{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.live-demos-h{
+    font-size: 28px;
+    color: #27282a;
+}
+.margin-top{
+    margin-top: 80px;
+}
+.front-end{
+    border-radius: 16px;
+}
+.border-radius{
+    border-radius: 16px;
+}
+.front-end:hover{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.14);
+}
+.demo{
+    padding: 50px 110px 25px 110px;
+    border-radius: 16px;
+    border: 1px solid #0ec3b0;
+}
+.demo-btn{
+    font-size: 20px;
+    font-family: wonder-semib;
+    width: 230px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-image: -moz-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(17,72,104) 0%, rgb(11,236,202) 100%);      
+}
+.login-text{
+    font-size: 18px;
+    font-family: Wonder-regular;
+    color: rgb(14, 193, 174);
+    margin-top: 65px;      
+}
+.margin-bottom{
+    margin-bottom: 290px;
+}
+.wonder-semib{
+    font-family: wonder-semib;
+}
+
   /*responsive Design*/
 @media(max-width:767px){
     .banner-p2 , .banner-heading , .banner-p ,  .banner-p.nav-links a , .nav-links a{
