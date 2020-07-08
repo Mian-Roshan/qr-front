@@ -18,7 +18,6 @@
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Features</a></li>
                                 <li><a href="#">Demo</a></li>
-                                <li><a href="#">FAQ</a></li>
                                 <li><a href="#">Pricing</a></li>
                                 <li><a href="#">Contact us</a></li>
                             </ul>
@@ -225,19 +224,14 @@
                 </div>
             </div> -->
             <div class="row p-0 m-0 feature-row">
-                <div class="col-md-6 p-md-0">
+                <div class="col-md-6 feature-left-text">
                     <div>
-                        <img src="assets/images/feature6.png" class="feature-left-img w-100">
-                    </div>
-                </div>
-                <div class="col-md-6 feature-right-text">
-                    <div>
-                        <div class="feature-right-opacity-text">
-                            <h1 class="feature-right-opacity-texth">Features</h1>
+                        <div class="feature-left-opacity-text">
+                            <h1 class="feature-left-opacity-texth">Features</h1>
                         </div>
-                        <h3 class="feature-h text-md-right text-left right-border">MORE KEY SOFTWARE FEATURES</h3>
-                        <p class="feature-p text-md-right text-left">Just like most of our PHP scripts, QR Web-Menu comes with the following special features & extra services. <a href="#">Find out more…</a></p>
-                        <div class="grey-text text-md-right text-left">
+                        <h3 class="feature-h text-md-left text-left left-border">MORE KEY SOFTWARE FEATURES</h3>
+                        <p class="feature-p text-md-left text-left">Just like most of our PHP scripts, QR Web-Menu comes with the following special features & extra services. <a href="#">Find out more…</a></p>
+                        <div class="grey-text text-md-left text-left">
                             <p> Cross Domain Integration</p>
                             <p>High Performance & Protected Against SQL Injections PHP Framework</p>
                             <p>One admin Module & Translation Module</p>
@@ -247,7 +241,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-md-6 p-md-0">
+                    <div>
+                        <img src="assets/images/feature6.png" class="feature-right-img w-100">
+                    </div>
+                </div>
             </div>
             <div class="benifits">
                 <div class="position-relative d-flex features-layer" style="background-image:url('assets/images/benifits-img.png')">
