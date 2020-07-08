@@ -312,6 +312,8 @@
                     <nav class="mainMenu">
                         <ul class="px-0">
                             <li><a href="#">Home</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Signup</a></li>
                             <li><a href="#">Features</a></li>
                             <li><a href="#">Demo</a></li>
                             <li><a href="#">Pricing</a></li>
