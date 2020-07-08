@@ -239,6 +239,7 @@ button{
 }
 .feature-row{
     margin-top: 100px !important;
+    z-index:2;
 }
 .feature-right-img{
     border-top-left-radius: 8px;
@@ -263,7 +264,6 @@ button{
     margin-bottom:10px;
 }
 .layer-overlay-container{
-    align-items: center;
     top:0px;
     padding-left:8%;
     padding-right:8%;
@@ -283,8 +283,55 @@ button{
     margin-top: 90px;
 }
 #signup .modal-dialog{
- max-width:800px !important;
-}
+    max-width:800px !important;
+    max-width:1000px !important;
+   }
+   .sign-up-form{
+       padding-left: 4%;
+       padding-right: 4%;
+   }
+   .sign-up-formh{
+       color: #27282a;
+       margin: 10px 0px;
+       font-family: wonder-bold !important;
+   }
+   .wonder-medium{
+       font-family: wonder-medium;
+       color: #868688;
+   }
+   .col-12-input{
+       border: 1px solid#868688;
+       border-radius: 20px;
+       width: 100%;
+       padding: 8px;
+       margin-bottom: 10px;
+       outline: none;
+   }
+   .col-6-input{
+       border: 1px solid #868688;
+       border-radius: 20px;
+       width: 100%;
+       padding: 8px;
+       margin-bottom: 10px;
+       outline: none;
+   }
+   .margin-left-form{
+       margin-left: 12px;
+   }
+   .input-file{
+       margin-bottom: 40px;
+   }
+   .form-button{
+       background-color: #4e73de;
+       width: 100%;
+       border: none;
+       border-radius: 20px;
+       color: white;
+       padding: 8px;
+   }
+   .modal.show{
+       padding-right:0px !important;
+   }
 
 /* menu button */
 .menuBtn {
@@ -412,7 +459,7 @@ button{
     animation: bounce-arrow 2s infinite;
 }
   /*responsive Design*/
-@media(max-width:768px){
+@media(max-width:767px){
     .banner-p2 , .banner-heading , .banner-p ,  .banner-p.nav-links a , .nav-links a{
         color:#27282a;
         }
@@ -439,6 +486,7 @@ button{
         }
         .features{
             padding-left:8%;
+            padding-right:8%;
         }
         .feature-right-text{
             padding-left:8%;
@@ -484,6 +532,12 @@ button{
         .banner{
           padding-right:8%;
         }
+        .flex-sm-reverse{
+            flex-direction:column-reverse;
+        }
+        .mb-40{
+            margin-bottom:40px;
+        }
     }
 @media(max-width:1150px){
     .feature-right-opacity-texth{
@@ -521,7 +575,7 @@ button{
      margin-bottom:0px;
     }
 }
-@media(max-width:373px){
+@media(max-width:400px){
     .feature-and-button{
      justify-content:center;
     }

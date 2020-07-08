@@ -27,7 +27,7 @@
                     <div class="banner ml-auto mr-auto row">
                         <div class="col-md-6 m-0 p-0">
                             <h1 class="banner-heading">RESTURANT<br>QR WEB MENU</h1>
-                            <p class="banner-p">Add an online menu maker to your resturant website and present your dishes tastly.</p>
+                            <p class="banner-p">Add QR Web-Menu to your resturant website and present your dishes tastly.</p>
                             <p class="banner-p2">Use our restaurant menu script to create countless categories (salads, soups, meat, desserts etc.) Add multiple dishes to each of them. The menu will blend perfectly into your website with minimum efforts. Personalize every entry by adding name, image and description. Set portion sizes and respective prices. Enable/disable products as per availability. Make your customers happy by launching special offers for a number of people with products of your choice.</p>
                             <div class="text-md-right text-center">
                                 <button class="banner-button" type="button"  data-toggle="modal" data-target="#signup">Create My Menu</button>
@@ -42,73 +42,62 @@
                     <h1 class="main-heading text-center">Product Highlights</h1>
                     <p class="text-center main-p">The Restaurant QR Web Menu will help you create a mouth-watering online menu with all your<br>dishes and drinks. Adding categories, products and special offers and personalizing them is an easy<br>and convenient job you are going to enjoy. Check the key features below:</p>
                 <div class="row p-0 m-0">
-                    <div class=" col-md-4 mb-3">
+                    <div class=" col-md-6 col-lg-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card1.svg" width="90px" height="90px">
                             </div>
-                            <h3 class="text-center products-cards-h">Categories & Products</h3>
-                            <p class="text-center products-cards-p">Create multiple menu categories and products. Add names, images and descriptions. Set different portion sizes and the corresponding prices. Enable/disable products depending on their availability.</p>
+                            <h3 class="text-center products-cards-h">Navigation, Categories & Products</h3>
+                            <p class="text-center products-cards-p">Create multiple Menu Navigation,  Categories and Products. Add names, images and descriptions. Set different portion sizes and the corresponding prices. Enable/disable products depending on their availability.</p>
                         </div>
                     </div>
-                    <div class=" col-md-4 mb-3">
+                    <div class=" col-md-6 col-lg-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card2.svg" width="90px" height="90px">
                             </div>
                             <h3 class="text-center products-cards-h">Responsive & Varied Design</h3>
-                            <p class="text-center products-cards-p">The restaurant script front-end is mobile-friendly and can be loaded across various devices (PC, smartphones, tablets). You can also change color themes - 10 different are available!</p>
+                            <p class="text-center products-cards-p">The QR Web-Menu front-end is mobile-friendly and can be loaded across various devices (PC, smartphones, tablets). You can also change color themes.</p>
                         </div>
                     </div>
-                    <div class=" col-md-4 mb-3">
+                    <div class=" col-md-6 col-lg-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card3.svg" width="90px" height="90px">
                             </div>
                             <h3 class="text-center products-cards-h">Special Offers</h3>
-                            <p class="text-center products-cards-p">The restaurant script front-end is mobile-friendly and can be loaded across various devices (PC, smartphones, tablets). You can also change color themes - 10 different are available!</p>
+                            <p class="text-center products-cards-p">The restaurant script front-end is mobile-friendly and can be loaded across various devices (PC, smartphones, tablets). You can also change color themes.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row p-0 m-0">
-                    <div class=" col-md-4 mb-3">
+ 
+                    <div class=" col-md-6 col-lg-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card4.svg" width="90px" height="90px">
                             </div>
                             <h3 class="text-center products-cards-h">Multiple Languages</h3>
-                            <p class="text-center products-cards-p">The online menu maker can be translated into various languages. You can do it from the back-end system or by exporting and importing a CSV file with all system titles.</p>
+                            <p class="text-center products-cards-p">The QR Web-Menu can be translated into various languages. You can do it from the back-end system.</p>
                         </div>
                     </div>
-                    <div class=" col-md-4 mb-3">
+                    <div class=" col-md-6 col-lg-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card5.svg" width="90px" height="90px">
                             </div>
-                            <h3 class="text-center products-cards-h">Portiojn Size</h3>
+                            <h3 class="text-center products-cards-h">Portion Size</h3>
                             <p class="text-center products-cards-p">Enable different portion sizes (e.g. small / medium / family pizza) or allow one dish size only. Set separate prices for each portion size. Easily add and remove sizes from the back-end as necessary.</p>
                         </div>
                     </div>
-                    <div class=" col-md-4 mb-3">
+                    <div class=" col-md-6 col-lg-4 mb-3">
                         <div class="products-cards position-relative">
                             <div class="text-center products-cards-img">
                                 <img src="assets/images/card6.svg" width="90px" height="90px">
                             </div>
                             <h3 class="text-center products-cards-h">Users Roles</h3>
-                            <p class="text-center products-cards-p">There are two types of restaurant script users. Admins have full access rights - they can change system settings and add users. Editors have access to all menus, but restricted rights.</p>
+                            <p class="text-center products-cards-p">There are two types of QR Web-Menu users. Admins have full access rights - they can change system settings and add users. Editors have access to all menus, but restricted rights.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row p-0 m-0">
-                    <div class=" col-md-4 mb-3">
-                        <div class="products-cards position-relative">
-                            <div class="text-center products-cards-img">
-                                <img src="assets/images/card7.svg" width="90px" height="90px">
-                            </div>
-                            <h3 class="text-center products-cards-h">Cross-domain Integration</h3>
-                            <p class="text-center products-cards-p">You can install the restaurant menu script on domainA and use it on domainB. This means you can embed the software on an external website and thus attract more customers.</p>
-                        </div>
-                    </div>
                 </div>
                 </div>
                 <div class="sec-layer">
@@ -121,21 +110,20 @@
                         </div>
                         </div>
                     </div>
-                    <div class="row m-0 p-0">
+                    <div class="row m-0 p-0 flex-sm-reverse">
                         <div class="col-md-6">
                             <div class="features">
                                 <h3 class="feature-h">EASY MENU MANAGEMENT</h3>
-                                <p class="feature-p">Restaurant Menu Maker has a user-friendly back-end system allowing you to organize and style your menu with pleasure. Specially built for non-technical users, the web based admin panel provides remote access to the restaurant script, so that you can manage your online business both from the office and on the go.</p>
+                                <p class="feature-p">QR Web-Menu has a user-friendly back-end system allowing you to organize and style your menu with pleasure. Specially built for non-technical users, the web based admin panel provides remote access to the restaurant script, so that you can manage your online business both from the office and on the go.</p>
                                 <div class="grey-text">
                                     <p>Create your main and subcategories. Order them, add images and descriptions.</p>
                                     <p>Include unlimited products (dishes) into each category. Add catchy names and galleries.</p>
                                     <p>Set different portion sizes or one dish size only. Each portion goes with a separate price.</p>
                                     <p>Change product status - enable/disable dishes depending on their availability.</p>
-                                    <p>Related scripts: Check our <a href="#">Food Delivery Script</a> and <a href="#">table booking system</a>, too!</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6  pr-md-0 mt-40">
+                        <div class="col-md-6  pr-md-0 mb-40">
                             <div class="feature1">
                                 <img src="assets/images/feature1.png" class="w-100 feature1 img">    
                             <div>
@@ -143,7 +131,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="row feature-row">
+                <div class="row feature-row position-relative">
                     <div class="col-md-6 p-md-0">
                         <div>
                             <img src="assets/images/feature2.png" class="feature-left-img w-100">
@@ -168,24 +156,24 @@
                 </div>
             </div>
             </div>
-            <div class="row p-0 m-0 feature-row">
+            <div class="row p-0 m-0 feature-row flex-sm-reverse">
                 <div class="col-md-6 feature-left-text">
                     <div>
                         <div class="feature-left-opacity-text">
                             <h1 class="feature-left-opacity-texth">Features</h1>
                         </div>
                         <h3 class="feature-h">HIGH PERFORMANCE & FLEXIBILITY</h3>
-                        <p class="feature-p">Just like all other PHPJabbers scripts, the restaurant menu script is developed to ensure an optimal user experience for both customers and admins. It's quick, mobile-friendly and highly customizable.</p>
+                        <p class="feature-p">The QR Web-Menu is developed to ensure an optimal user experience for both customers and admins. It's quick, mobile-friendly and highly customizable.</p>
                         <div class="grey-text">
                             <p>Responsiveness - The restaurant script is mobile-friendly and loads on various devices.</p>
                             <p>Colors - You can choose from 10 different color themes and customize your menu.</p>
-                            <p>Compatibility - Integrate online menu maker into all kinds of websites. <a href=#>Watch a video...<a></p>
+                            <p>Compatibility - Integrate QR Web-Menu into all kinds of websites.</p>
                             <p>Fast load time - AJAX is used to refresh the restaurant script only, not the entire web page.</p>
-                            <p>Custom changes - <a href="#">Request a modification</a> to adapt Restaurant Menu Maker to your needs.</p>
+                            <p>Custom changes - <a href="#">Request a modification</a> to adapt QR Web-Menu to your needs.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 p-md-0 mt-40">
+                <div class="col-md-6 p-md-0 mb-40">
                     <div>
                         <img src="assets/images/feature3.png" class="w-100 feature-right-img">
                     </div>     
@@ -208,26 +196,24 @@
                             <p>Multi-language support - Translate all system messages into multiple languages.</p>
                             <p>User roles - Admins have full access rights and can add other users.</p>
                             <p>Editors can only view menus.</p>
-                            <p>System Backup - Make a safe copy of all your files and database entries with a single click.</p>
-                            <p>One admin - Control multiple PHPJabbers scripts from a <a href="#">centralized admin area.</a></p>
-                    </div>
+                            <!-- <p>System Backup - Make a safe copy of all your files and database entries with a single click.</p> -->
+                        </div>
                     </div>
                 </div>
             </div>
             </div>
-            <div class="row p-0 m-0 feature-row">
+            <!-- <div class="row p-0 m-0 feature-row">
                 <div class="col-md-6 feature-left-text">
                     <div>
                         <div class="feature-left-opacity-text">
                             <h1 class="feature-left-opacity-texth">Features</h1>
                         </div>
                         <h3 class="feature-h">INSTALLATION & INTEGRATION</h3>
-                        <p class="feature-p">An installation script will automatically install the restaurant menu software for you. Just upload the files we will send you on your hosting account and open the installation page. Then add the code on the web page where you want the online restaurant menu to appear.</p>
+                        <p class="feature-p">Just Create your accounts and start making your Restaurant Menu in QR Web-Menu.</p>
                         <div class="grey-text">
-                            <p>The Install Wizard will guide you through the installation process. Watch video...</p>
-                            <p>Integrate the online menu maker - Just copy/paste a few lines on your web page.</p>
-                            <p>Cross-domain integration - You can install the restaurant script on domainA and use it 
-                            on domainB.</p>
+                            <p>Integrate the QR Web-Menu - Just copy/paste a few lines on your web page.</p>
+                             <p>Cross-domain integration - You can install the restaurant script on domainA and use it 
+                             on domainB.</p>
                             <p>Installation help - Contact us to request our assistance and we will spare you all the fuzz!</p>
                         </div>
                     </div>
@@ -237,7 +223,7 @@
                         <img src="assets/images/feature5.png" class="w-100 feature-right-img">
                     </div>     
                 </div>
-            </div>
+            </div> -->
             <div class="row p-0 m-0 feature-row">
                 <div class="col-md-6 p-md-0">
                     <div>
@@ -250,16 +236,15 @@
                             <h1 class="feature-right-opacity-texth">Features</h1>
                         </div>
                         <h3 class="feature-h text-md-right text-left right-border">MORE KEY SOFTWARE FEATURES</h3>
-                        <p class="feature-p text-md-right text-left">Just like most of our PHP scripts, Restaurant Menu Maker comes with the following special features & extra services. <a href="#">Find out more…</a></p>
+                        <p class="feature-p text-md-right text-left">Just like most of our PHP scripts, QR Web-Menu comes with the following special features & extra services. <a href="#">Find out more…</a></p>
                         <div class="grey-text text-md-right text-left">
-                            <p>Installation Wizard & Cross Domain Integration</p>
+                            <p> Cross Domain Integration</p>
                             <p>High Performance & Protected Against SQL Injections PHP Framework</p>
-                            <p>One admiN Module, Translation Module & Backup Tool</p>
+                            <p>One admin Module & Translation Module</p>
                             <p>User Permissions & Encrypted Passwords</p>
                             <p>Installation assistance, Support & Updates</p>
-                            <p>Payment Gateways Integration, Remote Hosting & Web SMS</p>
-                            <p>Developer Licence & Extended Licence Program</p>
-                    </div>
+                            <p>Payment Gateways Integration, Remote Hosting</p> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -275,7 +260,7 @@
                         <div class="col-lg-col col-12 col-sm-6 text-center">
                             <img src="assets/images/benifit-2.png">
                             <h3 class="benifit-h">SCRIPT MODIFICATIONS</h3>
-                            <p class="benifit-p">See a detailed introduction of our custom modification service!</p>
+                            <p class="benifit-p">Contact us for custom modification service!</p>
                         </div>
                         <div class="col-lg-col col-12 col-sm-6 text-center">
                             <img src="assets/images/benifit-3.png">
@@ -285,22 +270,17 @@
                         <div class="col-lg-col col-12 col-sm-6 text-center">
                             <img src="assets/images/benifit-4.png">
                             <h3 class="benifit-h">REMOTE HOSTING</h3>
-                            <p class="benifit-p">Save yourself the hassle - let us host our PHP scripts in the cloud!</p>
-                        </div>
-                        <div class="col-lg-col col-12 col-sm-6 text-center">
-                            <img src="assets/images/benifit-5.png">
-                            <h3 class="benifit-h">EXTENDED LICENCE</h3>
-                            <p class="benifit-p">Apply now to promote and resell our PHP scripts on your website!</p>
+                            <p class="benifit-p">Save yourself the hassle - use our PHP scripts in the cloud!</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="text-view-all">
+            <!-- <div class="text-view-all">
                 <p class="text-center ">VIEW ALL BENIFITS</p>
                 <div class="text-center">
                     <img class="animate-arrow" src="assets/images/arrow.png">
                 </div>
-            </div>
+            </div> -->
             <!-- Responsive Navigation -->
             <div class="mobile d-md-none d-block">
                 <div class="mainContainer">
@@ -309,21 +289,12 @@
                     </a>
                     <nav class="mainMenu">
                         <ul class="px-0">
-                            <li>
-                            <a href="">House Removals</a>
-                            </li>
-                            <li>
-                                <a href="">Furniture Delivery</a>
-                            </li>
-                            <li>
-                                <a href="">Office Removels</a>
-                            </li>
-                            <li>
-                                <a href="">Piano Removels</a>
-                            </li>
-                            <li>
-                                <a href="">Why Us</a>
-                            </li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Demo</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact us</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -340,10 +311,10 @@
                         </div>
                         <div class="modal-body">
                             <div class="row">
-                                <div class="col-5 pr-0">
+                                <div class="col-md-5 pr-0 d-md-block d-none">
                                     <div class="form-image h-100" style="background:url('assets/images/form-image.jpg');background-repeat:no-repeat;background-position:center;"></div>
                                 </div>
-                                <div class="col-7 sign-up-form">
+                                <div class="col-md-7 sign-up-form">
                                     <h4 class="text-center sign-up-formh">Create an Account!</h4>
                                     <p class="wonder-medium">Data User</p>
                                     <hr>
