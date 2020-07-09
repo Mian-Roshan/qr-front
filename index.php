@@ -105,7 +105,7 @@
                         <div class="col-md-12">
                         <div class="d-flex feature-and-button flex-wrap">
                             <h1 class="feature-first-h">Features</h1>
-                            <button class="ml-auto feature-button">Create My Menu</button>
+                            <button class="ml-auto feature-button" data-toggle="modal" data-target="#signup">Create My Menu</button>
                         </div>
                         </div>
                     </div>
@@ -428,7 +428,7 @@
                             <label class="login-label">Enter Password</label><br>
                             <input class="login-inputs" placeholder="Password" type="password">
                             <br><input type="checkbox" class="login-checkbox"> Remember Me
-                            <br><button class="login-button">Login In</button>
+                            <br><button class="login-button">Login</button>
                         </form>
                         </div>
                     </div>
