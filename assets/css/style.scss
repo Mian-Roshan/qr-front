@@ -289,8 +289,7 @@ button{
     margin-top: 90px;
 }
 #signup .modal-dialog{
-    max-width:800px !important;
-    max-width:1000px !important;
+    max-width:900px !important;
    }
    .sign-up-form{
        padding-left: 4%;
@@ -309,7 +308,7 @@ button{
        border: 1px solid#868688;
        border-radius: 20px;
        width: 100%;
-       padding: 8px;
+       padding: 5px 5px 5px 10px; 
        margin-bottom: 10px;
        outline: none;
    }
@@ -317,7 +316,7 @@ button{
        border: 1px solid #868688;
        border-radius: 20px;
        width: 100%;
-       padding: 8px;
+       padding: 5px 5px 5px 10px;
        margin-bottom: 10px;
        outline: none;
    }
@@ -325,7 +324,7 @@ button{
        margin-left: 12px;
    }
    .input-file{
-       margin-bottom: 40px;
+       margin-bottom: 20px;
    }
    .form-button{
        background-color: #4e73de;
@@ -338,6 +337,10 @@ button{
    .modal.show{
        padding-right:0px !important;
    }
+   .modal-body{
+       height: 80vh !important;
+       overflow-y: auto;
+    }
 
 /* menu button */
 .menuBtn {

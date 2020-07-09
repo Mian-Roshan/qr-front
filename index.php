@@ -325,7 +325,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Create Menu</h5>
+                            <h5 class="modal-title" id="exampleModalLongTitle">Register To Create Menu</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
@@ -337,7 +337,7 @@
                                 </div>
                                 <div class="col-md-7 sign-up-form">
                                     <h4 class="text-center sign-up-formh">Create an Account!</h4>
-                                    <p class="wonder-medium">Data User</p>
+                                    <p class="wonder-medium">User Info</p>
                                     <hr>
                                     <form>
                                         <div class="row p-0">
@@ -349,17 +349,11 @@
                                             </div>
                                         </div>
                                         <div class="row p-0">
-                                            <div class="col-12">
-                                                <div>
-                                                    <input type="name" placeholder="User Name" class="col-12-input">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row p-0">
-                                            <div class="col-12">
-                                                <div>
-                                                    <input type="email" placeholder="Email Address" class="col-12-input">
-                                                </div>
+                                            <div class="col-6">
+                                                <input type="text" placeholder="User Name" class="col-6-input">
+                                            </div>    
+                                            <div class="col-6 pl-0">
+                                                <input type="email" placeholder="Email Address" class="col-6-input">
                                             </div>
                                         </div>
                                         <div class="row p-0">
@@ -370,7 +364,7 @@
                                                 <input type="password" placeholder="Repeat Passwords" class="col-6-input">
                                             </div>
                                         </div>
-                                        <p class="wonder-medium mt-1">Data Restaurant</p>
+                                        <p class="wonder-medium mt-3">Restaurant Info</p>
                                         <hr>
                                         <div class="row p-0">
                                             <div class="col-12">
@@ -389,9 +383,6 @@
                                         <div class="row p-0">
                                             <div class="col-6">
                                                 <input type="number" placeholder="Phone Number" class="col-6-input">
-                                            </div>    
-                                            <div class="col-6 pl-0">
-                                                <input type="text" placeholder="Wesite." class="col-6-input">
                                             </div>
                                         </div>
                                         <p class="wonder-medium">Image Restaurant</p>
