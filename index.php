@@ -276,7 +276,7 @@
             <div class="padding">
                 <h1 class="main-heading text-center">Live Demo</h1>
                 <p class="main-p text-center">Below is a preview of the Restaurant QR Web Menu. You can see both the front and back-end<br> system, and test all functionalities.In case of any specific questions, do not hesitate to<br> contact us.</p>
-                <div class="row margin-bottom">
+                <div class="row mb-2">
                     <div class="col-md-6 margin-top">
                         <div class="text-center">
                             <h3 class="live-demos-h">FRONT-END</h3>
@@ -312,6 +312,8 @@
                     <nav class="mainMenu">
                         <ul class="px-0">
                             <li><a href="#">Home</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Signup</a></li>
                             <li><a href="#">Features</a></li>
                             <li><a href="#">Demo</a></li>
                             <li><a href="#">Pricing</a></li>
