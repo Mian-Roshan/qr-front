@@ -428,7 +428,7 @@
                             <label class="login-label">Enter Password</label><br>
                             <input class="login-inputs" placeholder="Password" type="password">
                             <br><input type="checkbox" class="login-checkbox"> Remember Me
-                            <br><button class="login-button">Login In</button>
+                            <br><button class="login-button">Login</button>
                         </form>
                         </div>
                     </div>
