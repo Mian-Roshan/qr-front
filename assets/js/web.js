@@ -28,7 +28,6 @@ $(document).ready(function(){
 		var scroll = $(window).scrollTop();
 		if (scroll > 150) {
 			$(".navbar-qr").addClass("sticky");
-			var l_h = $('.layer').height();
 			$('.layer').css('height' , '600px');
 			$('.menuBtn').css('top', '21px');
 			
@@ -42,4 +41,9 @@ $(document).ready(function(){
 	$(window).scroll(function() {    
 		nav_sticky();
 	});
+	$('.navbar-qr ul li a').on('click', function(){
+		var target = $(this).attr('href');
+		$('html,body').animate({scrollTop: $(target).offset().top + -200},'slow');
+		e.preventDefault();
+	})
 });

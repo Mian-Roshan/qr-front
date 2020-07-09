@@ -8,18 +8,18 @@
         <link rel="stylesheet" href="assets/css/style.scss">
         <title>Showcase</title>
     </head>
-    <body>
-            <div class="main-wrapper">
+    <body >
+            <div class="main-wrapper" id="home">
                 <div class="layer" style="background-image: url(assets/images/first-layer.png);">
                     <div class="navbar-qr d-flex ml-auto mr-auto">
                         <a href="#" class="nav-logo"><img src="assets/images/logo.png"></a>
                         <div class="nav-links ml-auto d-none d-md-block">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Demo</a></li>
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#demo">Demo</a></li>
+                                <li><a href="pricing">Pricing</a></li>
+                                <li><a href="contact">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                 </div>
                 </div>
                 </div>
-                <div class="sec-layer">
+                <div class="sec-layer"  id="features">
                     <img src="assets/images/sec-layer.png" class="img-fluid sec-layer">
                     <div class="row m-0 p-0">
                         <div class="col-md-12">
@@ -273,7 +273,7 @@
                     </div>
                 </div>
             </div>
-            <div class="padding">
+            <div class="padding" id="demo">
                 <h1 class="main-heading text-center">Live Demo</h1>
                 <p class="main-p text-center">Below is a preview of the Restaurant QR Web Menu. You can see both the front and back-end<br> system, and test all functionalities.In case of any specific questions, do not hesitate to<br> contact us.</p>
                 <div class="row mb-2">
