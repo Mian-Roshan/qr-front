@@ -24,6 +24,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
 .layer{
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -335,7 +336,8 @@ button{
        padding: 8px;
    }
    .modal.show{
-       padding-right:0px !important;
+        padding-right:0px !important;
+        padding-left:0px !important;
    }
    .modal-body{
        height: 80vh !important;

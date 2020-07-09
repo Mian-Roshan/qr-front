@@ -12,13 +12,16 @@ $(document).ready(function(){
 	});
 	$('.modal-trigger').on('click', function(){
 	 var popup = $(this).attr('data-target');
-	 $('.modal').removeClass('show');
+	 $('.modal').modal('hide');
+	 $('.modal').hide();
 	 $(popup).modal('show');
 	});
 	$('.c-o-js').on("shown.bs.modal", function() {
 		$("body").addClass("modal-open");
+		$('.c-o-js').show();
 	});
 	  $('.c-o-js').on("hide.bs.modal", function() {
 		$('.modal-backdrop').remove();
+		$('.c-o-js').hide();
 	});
 });
