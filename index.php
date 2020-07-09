@@ -395,7 +395,7 @@
                                         </div>
                                         <div class="row p-0">
                                             <div class="col-12">
-                                                <button type="submit" class="form-button wonder-medium">Regester Account</button>
+                                                <button type="submit" class="form-button wonder-medium">Register Account</button>
                                                 <hr>
                                                 <p class="text-center wonder-medium login"><a href="#" class="modal-trigger" data-toggle="modal" data-target="#loginModal">Already have an account? login</a></p>
                                             </div>
