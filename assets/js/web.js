@@ -28,8 +28,14 @@ $(document).ready(function(){
 		var scroll = $(window).scrollTop();
 		if (scroll > 150) {
 			$(".navbar-qr").addClass("sticky");
+			var l_h = $('.layer').height();
+			$('.layer').css('height' , '600px');
+			$('.menuBtn').css('top', '21px');
+			
 		}else{
 			$(".navbar-qr").removeClass("sticky");
+			$('.layer').css('height' , '810px');
+			$('.menuBtn').css('top', '40px');
 		}
 	}
 	nav_sticky();

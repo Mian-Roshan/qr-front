@@ -397,14 +397,6 @@ button{
     }
 
 /* menu button */
-.menuBtn {
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    right: 30px;
-    top: 40px;
-    z-index: 101;
-  }
   .menuBtn > span {
     background-color: #fff;
     border-radius: 1px;
@@ -632,11 +624,19 @@ button{
         }
         .layer{
             background-image:none !important;
-            height:auto;
+            height:auto !important;
         }
         .feature-right-opacity-texth{
             display:none;
         }
+        .menuBtn {
+            height: 30px;
+            width: 30px;
+            position: fixed;
+            right: 30px;
+            top: 40px;
+            z-index: 9999999;
+          }
         .navbar-qr{
         background-image: -moz-linear-gradient( 0deg, rgb(11,236,202) 0% ,  rgb(17,72,104) 100%);
         background-image:  linear-gradient( 0deg, rgb(11,236,202) 0% ,  rgb(17,72,104) 100%);
