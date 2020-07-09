@@ -105,7 +105,7 @@
                         <div class="col-md-12">
                         <div class="d-flex feature-and-button flex-wrap">
                             <h1 class="feature-first-h">Features</h1>
-                            <button class="ml-auto feature-button">Create My Menu</button>
+                            <button class="ml-auto feature-button" data-toggle="modal" data-target="#signup">Create My Menu</button>
                         </div>
                         </div>
                     </div>
