@@ -519,6 +519,41 @@ button{
 .wonder-semib{
     font-family: wonder-semib;
 }
+.login-h{
+    font-family: wonder-bold;
+}
+.login-inputs{
+    outline: none !important;
+    width: 100%;
+    border: 1px solid #868688;
+    border-radius: 20px;
+    padding: 8px 0px 8px 10px;
+}
+.login-button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #4e73de;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: wonder-medium;
+    padding: 8px;
+    width: 100%;
+}
+.login-checkbox{
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.login-label{
+    margin-top: .5rem;
+    color: #868688;
+    padding-left: 10px;
+    font-family: wonder-medium;
+}
+.login-modal-body{
+    height: 350px;
+    padding: 10px 20px;
+}
 
   /*responsive Design*/
 @media(max-width:767px){

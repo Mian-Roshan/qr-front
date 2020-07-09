@@ -462,7 +462,7 @@ button {
 }
 
 .menuBtn.act > span:after, .menuBtn.act > span:before {
-  background-color: #df3943;
+  background-color: #fff;
   top: 1px;
 }
 
@@ -478,7 +478,9 @@ button {
 
 /* main menu block */
 .mainMenu {
-  background-color: #fff;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#0becca), to(#114868)) !important;
+  background-image: linear-gradient(0deg, #0becca 0%, #114868 100%) !important;
+  background-image: -ms-linear-gradient(0deg, #0becca 0%, #114868 100%) !important;
   position: fixed;
   left: 0;
   top: 0;
@@ -535,7 +537,7 @@ button {
 }
 
 .mainMenu a {
-  color: #0065bd;
+  color: #fff;
   display: inline-block;
   font-size: 20px;
   text-decoration: none;
@@ -608,7 +610,7 @@ button {
 }
 
 .demo {
-  padding: 50px 110px 25px 110px;
+  padding: 50px 20px 25px 20px;
   border-radius: 16px;
   border: 1px solid #0ec3b0;
 }
@@ -637,6 +639,47 @@ button {
 
 .wonder-semib {
   font-family: wonder-semib;
+}
+
+.login-h {
+  font-family: wonder-bold;
+}
+
+.login-inputs {
+  outline: none !important;
+  width: 100%;
+  border: 1px solid #868688;
+  border-radius: 20px;
+  padding: 8px 0px 8px 10px;
+}
+
+.login-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #4e73de;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: wonder-medium;
+  padding: 8px;
+  width: 100%;
+}
+
+.login-checkbox {
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+.login-label {
+  margin-top: .5rem;
+  color: #868688;
+  padding-left: 10px;
+  font-family: wonder-medium;
+}
+
+.login-modal-body {
+  height: 350px;
+  padding: 10px 20px;
 }
 
 /*responsive Design*/
@@ -676,7 +719,7 @@ button {
     right: auto;
     left: 0px;
   }
-  .feature-row, .feature-right-text, .mt-40, .benifits, .main-heading {
+  .feature-row, .feature-right-text, .mt-40, .benifits, .main-heading, .margin-top, .login-text {
     margin-top: 40px !important;
   }
   .feature-left-img, .feature1 img, .feature-right-img, .banner, .main-heading {
@@ -703,7 +746,7 @@ button {
   .col-lg-col {
     margin-bottom: 30px;
   }
-  .feature-button, .banner-button {
+  .feature-button, .banner-button, .demo-btn {
     width: 150px;
     height: 40px;
     font-size: 15px;

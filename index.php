@@ -397,7 +397,7 @@
                                             <div class="col-12">
                                                 <button type="submit" class="form-button wonder-medium">Regester Account</button>
                                                 <hr>
-                                                <p class="text-center wonder-medium"><a href="#">Already have an account? login</a></p>
+                                                <p class="text-center wonder-medium login"><a href="#" data-toggle="modal" data-target="#loginModal">Already have an account? login</a></p>
                                             </div>
                                         </div>
                                     </form>
@@ -407,6 +407,34 @@
                     </div>
                 </div>
             </div>
+              
+            <!--Login Modal -->
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="login-modal-body">
+                        <div>
+                            <h2 class="login-h text-center">Login</h2>
+                        </div>
+                        <form>
+                            <label class="login-label">Enter User Name</label><br>
+                            <input class="login-inputs" placeholder="User Name" type="text"><br>
+                            <label class="login-label">Enter Password</label><br>
+                            <input class="login-inputs" placeholder="Password" type="password">
+                            <br><input type="checkbox" class="login-checkbox"> Remember Me
+                            <br><button class="login-button">Login In</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div> 
         <script src="assets/bootstrap/jquery.min.js"></script>
         <script src="assets/bootstrap/bootstrap.min.js"></script>
