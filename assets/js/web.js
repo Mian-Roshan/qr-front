@@ -24,4 +24,16 @@ $(document).ready(function(){
 		$('.modal-backdrop').remove();
 		$('.c-o-js').hide();
 	});
+	function nav_sticky(){ 
+		var scroll = $(window).scrollTop();
+		if (scroll > 150) {
+			$(".navbar-qr").addClass("sticky");
+		}else{
+			$(".navbar-qr").removeClass("sticky");
+		}
+	}
+	nav_sticky();
+	$(window).scroll(function() {    
+		nav_sticky();
+	});
 });

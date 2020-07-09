@@ -45,6 +45,61 @@ body {
   font-family: wonder-regular;
   padding-left: 8%;
   padding-right: 8%;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.nav-logo img {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.navbar-qr.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  padding-top: 0px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#0becca), to(#114868));
+  background-image: linear-gradient(0deg, #0becca 0%, #114868 100%);
+  background-image: -ms-linear-gradient(0deg, #0becca 0%, #114868 100%);
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-box-shadow: 0px -1px 14px 0px #0009;
+          box-shadow: 0px -1px 14px 0px #0009;
+  min-height: 70px;
+}
+
+.navbar-qr.sticky .nav-logo img {
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .nav-links ul {
