@@ -555,6 +555,22 @@ button{
     padding: 10px 20px;
 }
 
+.modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
   /*responsive Design*/
 @media(max-width:767px){
     .banner-p2 , .banner-heading , .banner-p ,  .banner-p.nav-links a , .nav-links a{
