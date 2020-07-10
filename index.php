@@ -4,25 +4,31 @@
         <meta charset="UTF-8">
         <meta autor="Adroit Light Solutions">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/style.scss">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <!-- [if lt IE 9]
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <![endif] -->
         <title>Showcase</title>
     </head>
-    <body >
+    <body>
             <div class="main-wrapper" id="home">
                 <div class="layer" style="background-image: url(assets/images/first-layer.png);">
-                    <div class="navbar-qr d-flex ml-auto mr-auto">
-                        <a href="#" class="nav-logo"><img src="assets/images/logo.png"></a>
-                        <div class="nav-links ml-auto d-none d-md-block">
-                            <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#features">Features</a></li>
-                                <li><a href="#demo">Demo</a></li>
-                                <li><a href="pricing">Pricing</a></li>
-                                <li><a href="contact">Contact us</a></li>
-                            </ul>
+                    <header>
+                        <div class="navbar-qr d-flex ml-auto mr-auto">
+                            <a href="#" class="nav-logo"><img src="assets/images/logo.png"></a>
+                            <div class="nav-links ml-auto d-none d-md-block">
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#features">Features</a></li>
+                                    <li><a href="#demo">Demo</a></li>
+                                    <li><a href="pricing">Pricing</a></li>
+                                    <li><a href="contact">Contact us</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
+                    </header>    
                     <div class="banner ml-auto mr-auto row">
                         <div class="col-md-6 m-0 p-0">
                             <h1 class="banner-heading">RESTURANT<br>QR WEB MENU</h1>

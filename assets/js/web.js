@@ -26,7 +26,7 @@ $(document).ready(function(){
 	});
 	function nav_sticky(){ 
 		var scroll = $(window).scrollTop();
-		if (scroll > 150) {
+		if (scroll > 110) {
 			$(".navbar-qr").addClass("sticky");
 			$('.layer').css('height' , '600px');
 			$('.menuBtn').css('top', '21px');
@@ -43,7 +43,8 @@ $(document).ready(function(){
 	});
 	$('.navbar-qr ul li a').on('click', function(){
 		var target = $(this).attr('href');
-		$('html,body').animate({scrollTop: $(target).offset().top + -200},'slow');
+		var nav_h = $('header .navbar-qr').outerHeight();
+		$('html,body').animate({scrollTop: $(target).offset().top - nav_h - 80}, 1500);
 		e.preventDefault();
 	})
 });
