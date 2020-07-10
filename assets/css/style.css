@@ -768,6 +768,83 @@ button {
 .modal-body::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+.layer-card{
+  border: 1px rgb(243, 243, 243) solid;
+  border-radius: 16px;
+  box-shadow: 0px 0px 6px 0px rgba(1, 2, 2, 0.1);
+}
+.img-card-radius{
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.layer-texth1{
+  position: absolute;
+  top: 53px;
+  right: 126px;
+  font-family: wonder-medium;
+  font-size: 39px;
+}
+.layer-texth2{
+  color: white;
+  position: absolute;
+  top: 98px;
+  right: 174px;
+  font-family: wonder-semib;
+  font-size: 39px;
+}
+.layer-texth1-2{
+  position: absolute;
+  top: 53px;
+  right: 138px;
+  font-family: wonder-medium;
+  font-size: 39px;
+}
+.layer-texth2-2{
+  color: white;
+  position: absolute;
+  top: 98px;
+  right: 157px;
+  font-family: wonder-semib;
+  font-size: 39px;
+}
+.layer-card-body{
+  padding-left: 9%;
+  padding-right: 9%;
+  margin-top: 35px;
+  font-size: 16px;
+  font-family: wonder-medium;
+}
+.layer-card-icon{
+  margin-top: 4px;
+  margin-right: 8px;
+}
+.layer-card-btn{
+  margin: 30px 0px 30px 0px;
+  background-color: #ff5e87;
+  width: 230px; 
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 25px; 
+}
+.layer-card-btn2{
+  margin: 30px 0px 30px 0px;
+  background-color: #00ccff;
+  width: 230px; 
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 25px; 
+}
+.layer-card-btn3{
+  margin: 30px 0px 30px 0px;
+  background-color: #9069ea;
+  width: 230px; 
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 25px; 
+}
 
 /*responsive Design*/
 @media (max-width: 767px) {

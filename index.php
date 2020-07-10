@@ -310,6 +310,128 @@
                 </div>
             </div> -->
             <!-- Responsive Navigation -->
+            <h1 class="main-heading text-center">Pricing</h1>
+            <p class="main-p text-center">You can buy the Restaurant QR Web Menu either with a Developer, or with a User License.<br>
+                Want to request a custom modification? Please contact us and describe what has to be changed.</p>
+            <div class="row margin-top padding w-100">
+                <div class="col-md-4">
+                    <div class="px-0 layer-card">
+                        <div>
+                            <img src="assets/images/card-layer1.png" class="img-fluid img-card-radius w-100">
+                            <p class="layer-texth1">Monthly</p>
+                            <p class="layer-texth2">5$</p>
+                        </div>
+                        <div class="layer-card-body">
+                            <div class="layer-card-body">
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Free installation support</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Changes to the code</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Copy right removal</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Free updates</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Get all minor updates for free</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Custom modification</p>
+                                </div>
+                                <button class="layer-card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-4">
+                        <div class="px-0 layer-card">
+                            <div>
+                                <img src="assets/images/card-layer2.png" class="img-fluid img-card-radius w-100">
+                                <p class="layer-texth1">Quaterly</p>
+                                <p class="layer-texth2">15$</p>
+                            </div>
+                            <div class="layer-card-body">
+                                <div class="layer-card-body">
+                                    <div class="card-body-content d-flex">
+                                        <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                        <p>Free installation support</p>
+                                    </div>
+                                    <div class="card-body-content d-flex">
+                                        <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                        <p>Changes to the code</p>
+                                    </div>
+                                    <div class="card-body-content d-flex">
+                                        <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                        <p>Copy right removal</p>
+                                    </div>
+                                    <div class="card-body-content d-flex">
+                                        <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                        <p>Free updates</p>
+                                    </div>
+                                    <div class="card-body-content d-flex">
+                                        <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                        <p>Get all minor updates for free</p>
+                                    </div>
+                                    <div class="card-body-content d-flex">
+                                        <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                        <p>Custom modification</p>
+                                    </div>
+                                    <button class="layer-card-btn2">Buy Now</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class=" px-0 layer-card">
+                        <div>
+                            <img src="assets/images/card-layer3.png" class="img-fluid img-card-radius w-100">
+                            <p class="layer-texth1-2">Yearly</p>
+                            <p class="layer-texth2-2">40$</p>
+                        </div>
+                        <div class="layer-card-body">
+                            <div class="layer-card-body">
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Free installation support</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Changes to the code</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Copy right removal</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Free updates</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Get all minor updates for free</p>
+                                </div>
+                                <div class="card-body-content d-flex">
+                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <p>Custom modification</p>
+                                </div>
+                                <button class="layer-card-btn3">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
             <div class="mobile d-md-none d-block">
                 <div class="mainContainer">
                     <a href="#" class="menuBtn">
