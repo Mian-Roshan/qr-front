@@ -412,7 +412,11 @@ button {
   font-size: 16px;
   width:100%;
 }
-
+.align-center{
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+    align-items: center;
+}
 .benifit-p {
   color: white;
   font-family: wonder-regular;
@@ -778,38 +782,19 @@ button {
   border-top-right-radius: 16px;
 }
 .layer-texth1{
-  position: absolute;
-  top: 53px;
-  right: 126px;
+
   font-family: wonder-medium;
   font-size: 39px;
 }
 .layer-texth2{
   color: white;
-  position: absolute;
-  top: 98px;
-  right: 174px;
-  font-family: wonder-semib;
-  font-size: 39px;
-}
-.layer-texth1-2{
-  position: absolute;
-  top: 53px;
-  right: 138px;
-  font-family: wonder-medium;
-  font-size: 39px;
-}
-.layer-texth2-2{
-  color: white;
-  position: absolute;
-  top: 98px;
-  right: 157px;
+  margin-top: -30px;
   font-family: wonder-semib;
   font-size: 39px;
 }
 .layer-card-body{
-  padding-left: 9%;
-  padding-right: 9%;
+  padding-left: 16%;
+  padding-right: 16%;
   margin-top: 35px;
   font-size: 16px;
   font-family: wonder-medium;
@@ -845,7 +830,9 @@ button {
   border: none;
   border-radius: 25px; 
 }
-
+.top-0{
+  top:0px;
+}
 /*responsive Design*/
 @media (max-width: 767px) {
   .banner-p2, .banner-heading, .banner-p, .banner-p.nav-links a, .nav-links a {

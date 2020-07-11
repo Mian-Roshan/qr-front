@@ -316,12 +316,13 @@
             <div class="row margin-top padding w-100">
                 <div class="col-md-4">
                     <div class="px-0 layer-card">
-                        <div>
+                        <div class="position-relative">
                             <img src="assets/images/card-layer1.png" class="img-fluid img-card-radius w-100">
-                            <p class="layer-texth1">Monthly</p>
-                            <p class="layer-texth2">5$</p>
+                            <div class="position-absolute w-100 top-0 h-100 d-flex flex-column justify-content-center align-center">
+                                <p class="layer-texth1">Monthly</p>
+                                <p class="layer-texth2">5$</p>
+                            </div>    
                         </div>
-                        <div class="layer-card-body">
                             <div class="layer-card-body">
                                 <div class="card-body-content d-flex">
                                     <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
@@ -349,17 +350,20 @@
                                 </div>
                                 <button class="layer-card-btn">Buy Now</button>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
                     <div class="col-md-4">
                         <div class="px-0 layer-card">
                             <div class="layer-card-img">
-                                <img src="assets/images/card-layer2.png" class="img-fluid img-card-radius w-100">
-                                <p class="layer-texth1">Quaterly</p>
-                                <p class="layer-texth2">15$</p>
+                                <div class="position-relative">
+                                    <img src="assets/images/card-layer2.png" class="img-fluid img-card-radius w-100">
+                                    <div class="position-absolute w-100 top-0 h-100 d-flex flex-column justify-content-center align-center">
+                                        <p class="layer-texth1">Quaterly</p>
+                                        <p class="layer-texth2">15$</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="layer-card-body">
                                 <div class="layer-card-body">
                                     <div class="card-body-content d-flex">
                                         <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
@@ -387,17 +391,20 @@
                                     </div>
                                     <button class="layer-card-btn2">Buy Now</button>
                                 </div>
-                            </div>
+                            
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class=" px-0 layer-card">
-                        <div>
-                            <img src="assets/images/card-layer3.png" class="img-fluid img-card-radius w-100">
-                            <p class="layer-texth1-2">Yearly</p>
-                            <p class="layer-texth2-2">40$</p>
+                        <div class="layer-card-img">
+                            <div class="position-relative">
+                                <img src="assets/images/card-layer3.png" class="img-fluid img-card-radius w-100">
+                                <div class="position-absolute w-100 top-0 h-100 d-flex flex-column justify-content-center align-center">
+                                    <p class="layer-texth1">Yearly</p>
+                                    <p class="layer-texth2">40$</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="layer-card-body">
                             <div class="layer-card-body">
                                 <div class="card-body-content d-flex">
                                     <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
@@ -425,7 +432,6 @@
                                 </div>
                                 <button class="layer-card-btn3">Buy Now</button>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
