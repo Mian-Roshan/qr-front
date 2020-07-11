@@ -821,7 +821,7 @@ button {
 .layer-card-btn{
   margin: 30px 0px 30px 0px;
   background-color: #ff5e87;
-  width: 230px; 
+  width: 80%; 
   padding: 8px;
   color: white;
   border: none;
@@ -830,7 +830,7 @@ button {
 .layer-card-btn2{
   margin: 30px 0px 30px 0px;
   background-color: #00ccff;
-  width: 230px; 
+  width: 80%; 
   padding: 8px;
   color: white;
   border: none;
@@ -839,7 +839,7 @@ button {
 .layer-card-btn3{
   margin: 30px 0px 30px 0px;
   background-color: #9069ea;
-  width: 230px; 
+  width: 80%; 
   padding: 8px;
   color: white;
   border: none;

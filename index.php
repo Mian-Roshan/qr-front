@@ -332,15 +332,15 @@
                                     <p>Changes to the code</p>
                                 </div>
                                 <div class="card-body-content d-flex">
-                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <img src="assets/images/card-icon2.svg" width="16px" height="16px" class="layer-card-icon">
                                     <p>Copy right removal</p>
                                 </div>
                                 <div class="card-body-content d-flex">
-                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <img src="assets/images/card-icon2.svg" width="16px" height="16px" class="layer-card-icon">
                                     <p>Free updates</p>
                                 </div>
                                 <div class="card-body-content d-flex">
-                                    <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                    <img src="assets/images/card-icon2.svg" width="16px" height="16px" class="layer-card-icon">
                                     <p>Get all minor updates for free</p>
                                 </div>
                                 <div class="card-body-content d-flex">
@@ -354,7 +354,7 @@
                 </div>
                     <div class="col-md-4">
                         <div class="px-0 layer-card">
-                            <div>
+                            <div class="layer-card-img">
                                 <img src="assets/images/card-layer2.png" class="img-fluid img-card-radius w-100">
                                 <p class="layer-texth1">Quaterly</p>
                                 <p class="layer-texth2">15$</p>
@@ -370,11 +370,11 @@
                                         <p>Changes to the code</p>
                                     </div>
                                     <div class="card-body-content d-flex">
-                                        <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                        <img src="assets/images/card-icon2.svg" width="16px" height="16px" class="layer-card-icon">
                                         <p>Copy right removal</p>
                                     </div>
                                     <div class="card-body-content d-flex">
-                                        <img src="assets/images/card-icon.svg" width="16px" height="16px" class="layer-card-icon">
+                                        <img src="assets/images/card-icon2.svg" width="16px" height="16px" class="layer-card-icon">
                                         <p>Free updates</p>
                                     </div>
                                     <div class="card-body-content d-flex">
